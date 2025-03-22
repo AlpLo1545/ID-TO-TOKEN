@@ -20,6 +20,7 @@ banner = (Fore.MAGENTA + """
   ░     ░                    ░ ░                  ░ ░  ░  ░      ░  ░         ░
 """ + Fore.LIGHTCYAN_EX)
 print(banner)
+print("bu tool WardenAlpCw tarafından yapılmıştır")
 userid = input(" [INPUT] USER ID : ")
 encodedBytes = base64.b64encode(userid.encode("utf-8"))
 encodedStr = str(encodedBytes, "utf-8")
